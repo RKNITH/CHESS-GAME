@@ -377,4 +377,14 @@ div * {
     animation-iteration-count: infinite;
 }
 
+@media screen and (max-width:600px) {
+    #game {
+        max-width: 504px;
+        max-height: 504px;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        margin: 20px auto;
+    }
 
+}
